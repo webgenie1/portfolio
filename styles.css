@@ -1,0 +1,58 @@
+/* Base layout */
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  max-width: 820px;
+  margin: 48px auto;
+  padding: 0 24px;
+  color: #222;
+  background-color: #ffffff;
+}
+
+/* Headings */
+h1 {
+  font-size: 2.4rem;
+  margin-bottom: 0.4rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* Text */
+p {
+  margin-bottom: 1rem;
+}
+
+/* Project list */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 1.4rem;
+}
+
+/* Links */
+a {
+  color: #004a99;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Project descriptions */
+small {
+  display: block;
+  margin-top: 0.2rem;
+  color: #555;
+}
